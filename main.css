@@ -1,0 +1,801 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1440px;
+  height: 3581px;
+}
+header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.navigation {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 344px;
+  height: 359px;
+  margin-left: 51px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 22px;
+  padding-top: 38px;
+}
+
+.dropdown-content a {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: block;
+  text-decoration-line: underline;
+  color: #000000;
+  padding-left: 65px;
+  padding-top: 14px;
+}
+.gamburgerMenu {
+  margin-left: 45px;
+  margin-top: 13px;
+}
+.gamburgerMenu::after {
+  content: url(./assets/img/cancel.svg);
+  width: 10px;
+  height: 10px;
+  z-index: 0;
+}
+.gamburgerMenu:hover::after {
+  z-index: 1;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.navigation:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+  margin: 0px auto;
+  padding-right: 74px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 570px;
+  justify-content: space-between;
+}
+.infoDateHead {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.infoDate {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+
+  margin-top: 109px;
+
+  color: #ffffff;
+}
+.date {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 7px;
+  color: #ffffff;
+  margin-left: 107px;
+}
+.infoDate a {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23.95px;
+  color: #ffffff;
+  margin-right: 110px;
+}
+.text {
+  width: 503px;
+  margin: 66px auto 0px auto;
+}
+.headText {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 45.5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.mainText {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  width: 503px;
+  height: 42px;
+  margin-top: 25px;
+  letter-spacing: 0.3px;
+}
+.button {
+  width: 198px;
+  height: 55px;
+  margin: 53px auto 151px 108px;
+}
+.button button {
+  width: 198px;
+  height: 55px;
+  background-color: #000000;
+  border: 2px solid white;
+}
+.button a {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  color: #ffffff;
+}
+.conteiner2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 55px 150px 34px 149px;
+}
+.container2Head {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 6px;
+  padding-right: 5px;
+  margin-bottom: 28px;
+}
+.foto2 {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+.infoDate2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 24px;
+  color: #0f0b0b;
+}
+.date2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17.94px;
+  letter-spacing: 6px;
+  color: #000000;
+}
+.link {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #000000;
+  padding-right: 3px;
+}
+.link2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  color: #000000;
+}
+.date3 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17.94px;
+  letter-spacing: 6px;
+  color: #000000;
+  padding-left: 2px;
+}
+.conteiner3 {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  margin: 0px 148px 63px 149px;
+}
+.conteiner3Text1 {
+  font-family: Kanit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24.5px;
+  line-height: 32.9px;
+  color: #1f1f1d;
+  letter-spacing: 0.28px;
+}
+.conteiner3Text2 {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.1px;
+  line-height: 26.91px;
+  color: #1f1f1d;
+  margin-top: 22.91px;
+  letter-spacing: 0.2px;
+}
+.conteiner4 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 148px 22px 149px;
+  gap: 27px;
+  justify-content: space-around;
+  padding-right: 4px;
+}
+.infoDate3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 13px;
+}
+.conteiner5 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 148px 63px 149px;
+  gap: 27px;
+  padding-top: 1px;
+  /* padding-right: 2px; */
+}
+.conteiner5 div {
+  width: 363px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.1px;
+  line-height: 26.91px;
+  padding-left: 1.5px;
+  padding-right: 2.5px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #30301c;
+}
+.seeAll {
+  width: 238px;
+  height: 42px;
+  background-color: #1f1f1d;
+  align-self: center;
+}
+.seeAll a {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.conteiner6 {
+  display: flex;
+  flex-direction: row;
+  margin: 71.33px 148.5px 59.5px 148px;
+}
+.blackBlock {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 123.67px;
+  width: 100%;
+  height: 360px;
+}
+.blackBlock p {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34.5px;
+  line-height: 51px;
+  color: #ffffff;
+  margin-left: 115px;
+  letter-spacing: 0.92px;
+}
+.blackBlock button {
+  width: 198px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 20px 186.5px 123.33px 187px;
+}
+.conteiner7 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 149px 28px 149px;
+}
+.container7Head {
+  margin-bottom: 30px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26.91px;
+  color: #1f1f1d;
+}
+.infoDate7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.conteiner8 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 148px 38px 149px;
+  gap: 27px;
+  padding-top: 1px;
+  /* padding-right: 2px; */
+}
+.conteiner8 div {
+  width: 363px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.1px;
+  line-height: 26.91px;
+  padding-left: 1.5px;
+  padding-right: 2.5px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: #30301c;
+}
+.conteiner9 {
+  display: flex;
+  flex-direction: column;
+  margin: 33px 149px 23px 149px;
+}
+.container9Head {
+  margin-bottom: 27px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26.91px;
+  color: #1f1f1d;
+}
+.infoDate9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 15.53px;
+  padding-right: 1.51px;
+}
+.conteiner10 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 148px 30px 149px;
+  gap: 27px;
+}
+.conteiner10 div {
+  width: 363px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.5px;
+  line-height: 26.91px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #30301c;
+}
+footer {
+  width: 100%;
+  height: 163px;
+  background-color: #000000;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  margin-top: 33px;
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+  letter-spacing: 0.3px;
+}
+@media (max-width: 1240px) {
+  body {
+    max-width: 1240px;
+  }
+  .container1 {
+    max-width: 1240px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  .container1 .foto1 {
+    width: 650px;
+  }
+  .infoDateHead {
+    width: 100%;
+  }
+  .conteiner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  .container2Head {
+    margin-left: 150px;
+  }
+  .conteiner3 > div {
+    max-width: 1240px;
+  }
+  .infoDate2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .conteiner2 .foto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+  .conteiner6 {
+    max-width: 1240px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .conteiner6 div img {
+    width: 100%;
+    height: 360px;
+  }
+  .blackBlock {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .blackBlock p {
+    margin: 0 auto;
+  }
+
+  .logoFooter {
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .container1 {
+    max-width: 768px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+  .container1 .foto1 {
+    width: 50%;
+  }
+  .infoDateHead {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+  .infoDate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .infoDate .text {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .infoDate .date {
+    margin-left: 20px;
+  }
+  .headText {
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-left: 20px;
+  }
+  .mainText {
+    font-size: 12px;
+    width: 60%;
+    height: 54px;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 0;
+  }
+
+  .infoDate a {
+    display: none;
+  }
+  .conteiner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  .container2Head {
+    margin-left: 24px;
+  }
+  .conteiner3 {
+    max-width: 1240px;
+    margin: 20px;
+  }
+  .infoDate2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .conteiner2 .foto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .figure img {
+    width: 100%;
+  }
+  .conteiner4 {
+    max-width: 768px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .conteiner5,
+  .conteiner8,
+  .conteiner10 {
+    max-width: 768px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .conteiner6 {
+    max-width: 768px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin: 20px;
+  }
+  .conteiner6 div img {
+    width: 100%;
+    height: 360px;
+  }
+  .blackBlock {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .blackBlock p {
+    margin: 0 auto;
+  }
+  .conteiner7,
+  .conteiner9 {
+    margin: 20px;
+  }
+
+  .logoFooter {
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    max-width: 320px;
+  }
+  body {
+    max-width: 320px;
+  }
+  main {
+    max-width: 320px;
+  }
+  .navigation {
+    max-width: 320px;
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .logo {
+    margin-top: 10px;
+    justify-content: flex-end;
+    padding: 0;
+  }
+  .container1 {
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: unset;
+  }
+  .container1 .foto1 {
+    max-width: 320px;
+    width: 100%;
+  }
+  .container1 .foto1 img {
+    max-width: 320px;
+    width: 100%;
+  }
+  .infoDateHead {
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    padding: 0;
+  }
+  .infoDate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .text {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .infoDate .date {
+    margin-left: 20px;
+  }
+  .headText {
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+  .mainText {
+    font-size: 12px;
+    width: 60%;
+    height: 54px;
+    margin-right: 20px;
+    letter-spacing: 0;
+  }
+  .button {
+    margin: 50px auto 20px 20px;
+  }
+
+  .infoDate a {
+    display: none;
+  }
+  .conteiner2 {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  .container2Head {
+    margin-left: 10px;
+  }
+  .conteiner2 .foto2 {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .conteiner3,
+  .conteiner4,
+  .conteiner6 {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  .conteiner5,
+  .conteiner8,
+  .conteiner10 {
+    max-width: 320px;
+  }
+  .conteiner5 div,
+  .conteiner8 div,
+  .conteiner10 div {
+    width: 100px;
+  }
+  .seeAll {
+    max-width: 320px;
+    align-self: flex-start;
+    margin-left: 40px;
+  }
+  .blackBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .blackBlock p {
+    text-align: center;
+  }
+  .conteiner7,
+  .conteiner9 {
+    max-width: 320px;
+    width: 100%;
+    margin: 10px;
+  }
+  .conteiner7 .foto2,
+  .conteiner9 .foto2 {
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    max-width: 320px;
+  }
+}
